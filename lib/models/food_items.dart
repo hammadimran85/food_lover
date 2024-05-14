@@ -1,0 +1,402 @@
+class FoodItem {
+  final int id;
+  final String title;
+  final String description;
+  final double price;
+  final String imagePath;
+  final String category;
+  final int cartQuantity;
+  final bool addOn;
+
+  FoodItem({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.price,
+    required this.imagePath,
+    required this.category,
+    required this.cartQuantity,
+    required this.addOn,
+  });
+}
+
+List<FoodItem> allFoodItems = [
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 1,
+    title: 'Margherita Pizza',
+    description:
+        'Classic Italian pizza with tomato sauce, mozzarella cheese, and basil.',
+    price: 999,
+    imagePath: 'assets/images/pizza.png',
+    category: 'Pizza',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 2,
+    title: 'Cheese burger',
+    description:
+        'Juicy beef patty with cheddar cheese, lettuce, tomato, and pickles.',
+    price: 849,
+    imagePath: 'assets/images/burger.png',
+    category: 'Burgers',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 3,
+    title: 'Chicken Wings',
+    description:
+        'Spicy and crispy chicken wings served with ranch dipping sauce.',
+    price: 1299,
+    imagePath: 'assets/images/burger.png',
+    category: 'Starters',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 4,
+    title: 'Pasta Carbonara',
+    description: 'Creamy pasta with bacon, eggs, and Parmesan cheese.',
+    price: 1179,
+    imagePath: 'assets/images/burger.png',
+    category: 'Chinese',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 5,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/burger.png',
+    category: 'Bowl',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 6,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/burger.png',
+    category: 'Hosomaki',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 7,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/burger.png',
+    category: 'Momos',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 8,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/burger.png',
+    category: 'Salad',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 9,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/burger.png',
+    category: 'Rice',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 10,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/sprite.png',
+    category: 'Drinks',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 11,
+    title: 'Sushi Combo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 1599,
+    imagePath: 'assets/images/coke.png',
+    category: 'Drinks',
+    cartQuantity: 0,
+    addOn: false,
+  ),
+  FoodItem(
+    id: 12,
+    title: 'Coca Cola',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 99,
+    imagePath: 'assets/images/coke.png',
+    category: 'Drinks',
+    cartQuantity: 0,
+    addOn: true,
+  ),
+  FoodItem(
+    id: 13,
+    title: 'Sprite',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 99,
+    imagePath: 'assets/images/sprite.png',
+    category: 'Drinks',
+    cartQuantity: 0,
+    addOn: true,
+  ),
+  FoodItem(
+    id: 14,
+    title: 'Mayo',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 99,
+    imagePath: 'assets/images/mayo.png',
+    category: 'Sauce',
+    cartQuantity: 0,
+    addOn: true,
+  ),
+  FoodItem(
+    id: 14,
+    title: 'Chilli',
+    description:
+        'Assorted sushi rolls including salmon, tuna, and California rolls.',
+    price: 99,
+    imagePath: 'assets/images/chilli.png',
+    category: 'Sauce',
+    cartQuantity: 0,
+    addOn: true,
+  ),
+];
